@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header'
 
-function Resume(props) {
+function ContactMe(props) {
   return (
     <div>
       <Header/>
@@ -9,4 +9,4 @@ function Resume(props) {
   );
 }
 
-export default Resume;
+export default ContactMe;

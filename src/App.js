@@ -1,5 +1,11 @@
 import { Route } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import About from './screens/About';
+import ContactMe from './screens/ContactMe';
+import Projects from './screens/Projects';
+import Resume from './screens/Resume';
 
 import LandingPage from './screens/LandingPage';
 
@@ -9,7 +15,22 @@ function App() {
       <Route exact path='/'>
         <LandingPage />
       </Route>
-      
+      <Route path='/header'>
+        <Header />
+      </Route>
+      <Route path='/projects'>
+        <Projects />
+      </Route>
+      <Route path='/resume'>
+        <Resume />
+      </Route>
+      <Route path='/about'>
+        <About />
+      </Route>
+      <Route path='/contact'>
+        <ContactMe />
+      </Route>
+      <Footer/>
     </div>
   );
 }
