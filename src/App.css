@@ -124,7 +124,8 @@ a {
 
 #header-projects,
 #header-resume,
-#header-about {
+#header-about,
+.link {
   color: rgb(61, 61, 143);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -150,7 +151,8 @@ a {
 .contact:hover,
 #header-projects:hover,
 #header-resume:hover,
-#header-about:hover {
+#header-about:hover,
+.link:hover {
   cursor: pointer;
   color: rgb(139, 139, 177);
 }
@@ -212,4 +214,25 @@ a {
   border-radius: 5px;
   color: rgb(254, 241, 220);
   background-color: rgb(61, 61, 143);
+}
+
+.my-photo {
+  width: 300px;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.about-all {
+  display: inline;
+}
+
+.about-content {
+  width: 500px;
 }
