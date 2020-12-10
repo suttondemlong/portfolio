@@ -1,7 +1,9 @@
-/* font-family: 'Cantarell', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Paytone One', sans-serif;
-font-family: 'Quicksand', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+/* font-family: 'Paytone One', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+/* font-family: 'Quicksand', sans-serif; */
 
 .App {
   text-align: center;
@@ -116,7 +118,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 30px 60px;
+  margin: 30px 80px;
 }
 
 #header-projects,
@@ -153,4 +155,11 @@ a {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: rgb(61, 61, 143);
+}
+
+.page-title {
+  font-family: "Paytone One", sans-serif;
+  font-size: 35px;
+  color: rgb(245, 171, 43);
+  margin-top: 50px;
 }

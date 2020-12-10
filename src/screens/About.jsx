@@ -5,7 +5,7 @@ function About(props) {
   return (
     <div>
       <Header/>
-      <h3>About Me</h3>
+      <h2 className="page-title">About Me</h2>
       <p>This is who I am</p>
     </div>
   );

@@ -1,11 +1,11 @@
 import { Route } from 'react-router-dom';
 import './App.css';
+
 import Header from './components/Header';
 import About from './screens/About';
 import ContactMe from './screens/ContactMe';
 import Projects from './screens/Projects';
 import Resume from './screens/Resume';
-
 import LandingPage from './screens/LandingPage';
 
 function App() {
