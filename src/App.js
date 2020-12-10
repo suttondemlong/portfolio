@@ -1,6 +1,5 @@
 import { Route } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
 import Header from './components/Header';
 import About from './screens/About';
 import ContactMe from './screens/ContactMe';
@@ -30,7 +29,6 @@ function App() {
       <Route path='/contact'>
         <ContactMe />
       </Route>
-      <Footer/>
     </div>
   );
 }

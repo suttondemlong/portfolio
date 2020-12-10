@@ -5,7 +5,7 @@ import '../App.css';
 function Footer(props) {
   return (
     <div className='footer-container'>
-      <Link to='/contact'>CONTACT</Link>
+      <Link to='/contact' className="contact">CONTACT</Link>
       <a href='https://github.com/suttondemlong'>
         <img
           className="icon"
