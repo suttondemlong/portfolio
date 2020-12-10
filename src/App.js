@@ -5,7 +5,6 @@ import Header from './components/Header';
 import About from './screens/About';
 import ContactMe from './screens/ContactMe';
 import Projects from './screens/Projects';
-import Resume from './screens/Resume';
 import LandingPage from './screens/LandingPage';
 
 function App() {
@@ -19,9 +18,6 @@ function App() {
       </Route>
       <Route path='/projects'>
         <Projects />
-      </Route>
-      <Route path='/resume'>
-        <Resume />
       </Route>
       <Route path='/about'>
         <About />

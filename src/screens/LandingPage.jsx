@@ -14,7 +14,11 @@ function LandingPage(props) {
           striving for elegance and excellence in software engineering.</p>
       </div>
       <Link id="projects" to="/projects">PROJECTS</Link>
-      <Link id="resume" to='/resume'>RESUME</Link>
+      <a
+        href="https://docs.google.com/document/d/1mADQUVUJOYq4hU-eMg7aHnx1sguBNMQTCu4LR0Vi5fE/edit?usp=sharing"
+        id="resume">
+        RESUME
+      </a>
       <Link id="about" to='/about'>ABOUT</Link>
       <Footer />
     </div>
