@@ -5,6 +5,7 @@ import '../App.css';
 function Footer(props) {
   return (
     <div className='footer-container'>
+      <a className="link" href="http://sutton-demlong.squarespace.com/">ART</a>
       <Link to='/contact' className="contact">CONTACT</Link>
       <a href='https://github.com/suttondemlong'>
         <img
