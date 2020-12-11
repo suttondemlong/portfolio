@@ -14,5 +14,3 @@ const useModal = () => {
 };
 
 export default useModal;
-
-// code based on tuturial from https://upmostly.com/tutorials/modal-components-react-custom-hooks

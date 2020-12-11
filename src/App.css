@@ -347,6 +347,21 @@ a {
   border: none;
 }
 
+.modal-square {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+.p1-modal-body {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ParksAlert.png);
+}
+.p2-modal-body {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/PaintedGrits.png);
+}
+.p3-modal-body {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ThoughtVomit.png);
+}
+
 .view-button {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
@@ -356,9 +371,12 @@ a {
   border: none;
   color: transparent;
   background: transparent;
+  margin: 0 auto;
 }
 
 .view-button:hover {
+  background-color: rgb(73, 67, 67, 0.5);
+  color: #fff;
 }
 
 .button-default {
