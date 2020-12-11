@@ -11,7 +11,7 @@ function Projects(props) {
       <div className="projects-container">
         <div className="project-tile" id="project-1">
           <div className="tile-hover">
-            <a href="https://suttondemlong.github.io/Parks-ALERT-/">View Project</a>
+            <a className="project-link" href="https://suttondemlong.github.io/Parks-ALERT-/">View Project</a>
             <a href='https://github.com/suttondemlong/Parks-ALERT-'>
               <img
                 className="project-icon"
@@ -21,7 +21,7 @@ function Projects(props) {
         </div>
         <div className="project-tile" id="project-2">
           <div className="tile-hover">
-            <a href="https://objective-williams-628b36.netlify.app/">View Project</a>
+            <a className="project-link" href="https://objective-williams-628b36.netlify.app/">View Project</a>
             <a href='https://github.com/suttondemlong/paint-by-grid'>
               <img
                 className="project-icon"
@@ -31,7 +31,7 @@ function Projects(props) {
         </div>
         <div className="project-tile" id="project-3">
           <div className="tile-hover">
-            <a href="https://thought-vomit.netlify.app/">View Project</a>
+            <a className="project-link" href="https://thought-vomit.netlify.app/">View Project</a>
             <a href='https://github.com/suttondemlong/Thought-Vomit'>
               <img
                 className="project-icon"
