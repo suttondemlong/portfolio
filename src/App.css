@@ -256,3 +256,48 @@ a {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
 }
+
+.project-page {
+  height: 100vh;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#project-1 {
+  background: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ParksAlert.png);
+}
+
+#project-2 {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/PaintedGrits.png);
+}
+
+#project-3 {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ThoughtVomit.png);
+}
+
+#project-1,
+#project-2,
+#project-3 {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-tile {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  color: transparent;
+  margin: 20px;
+  box-shadow: 3px 3px 3px 3px #ccc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-tile:hover {
+  color: black;
+  background: rgba(0, 0, 0, 0.6);
+}

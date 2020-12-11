@@ -10,7 +10,7 @@ function About(props) {
       <div className="about-all">
         <img
           className="my-photo"
-          src="https://github.com/suttondemlong/portfolio/blob/main/src/assets/IMG_8767.JPG?raw=true"></img>
+          src="https://github.com/suttondemlong/portfolio/blob/main/src/assets/IMG_8767.JPG?raw=true" alt="it-me"></img>
           <p className="about-text">I am a junior developer with a background in fine arts and production based woodworking.
         As a production manager at LANNINGSMITH Studios, I learned how to navigate teams of unique individuals,
         balance client expectations with production realities and problem solve/pivot with a looming deadline.
