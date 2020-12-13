@@ -7,7 +7,7 @@ function Header(props) {
       <Link className='my-name' to='/'>SUTTON DEMLONG</Link>
       <Link id="header-projects" to="/projects">PROJECTS</Link>
       <a
-        href="https://drive.google.com/file/d/1AtgOaA6nL27-NbKRZC_U6LRV5dPwee0o/view?usp=sharing"
+        href="https://docs.google.com/document/d/1mADQUVUJOYq4hU-eMg7aHnx1sguBNMQTCu4LR0Vi5fE/edit?usp=sharing"
         id="header-resume">
         RESUME
       </a>

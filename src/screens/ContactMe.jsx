@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default class ContactMe extends React.Component {
   constructor(props) {
@@ -33,6 +34,7 @@ export default class ContactMe extends React.Component {
           {status === "SUCCESS" ? <p>Thanks for reaching out!</p> : <button className="submit-button">Submit</button>}
           {status === "ERROR" && <p>Ooops! Something went wrong.</p>}
         </form>
+        <Footer />
       </div>
     );
   }
