@@ -15,7 +15,7 @@ function LandingPage(props) {
       </div>
       <Link id="projects" to="/projects">PROJECTS</Link>
       <a
-        href="https://drive.google.com/file/d/11k8zkNXSxIgPFocPLFyBK-Tb244lO2pf/view?usp=sharing"
+        href="https://drive.google.com/file/d/164HD2MhgaOd8PqIUPmj0UELFq_A8-Q5a/view?usp=sharing"
         id="resume">
         RESUME
       </a>
