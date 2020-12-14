@@ -130,7 +130,7 @@
     border-right: 50vw solid transparent;
     border-left: 100px solid transparent;
   }
-  .my-name {
+  #landing-my-name {
     font-size: 30px;
     width: 60%;
     margin-left: 10%;
