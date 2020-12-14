@@ -1,6 +1,6 @@
 .my-photo {
   margin-right: 50px;
-  width: 200px;
+  height: 400px;
   clip-path: polygon(
     50% 0%,
     90% 20%,
@@ -17,9 +17,11 @@
 }
 
 .about-all {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90vw;
 }
 
 .about-text {
@@ -27,4 +29,14 @@
   text-align: left;
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+  .my-photo {
+    margin-right: 0;
+    width: 40vw;
+  }
+  .about-all {
+    flex-direction: column;
+  }
 }

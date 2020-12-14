@@ -39,8 +39,16 @@
 @media screen and (max-width: 500px) {
   .footer-container {
     justify-content: space-around;
+    position: relative;
   }
   #linked-in-id {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-container {
+    max-width: 1400px;
+    position: relative;
   }
 }

@@ -21,7 +21,13 @@ function About(props) {
           people’s perspectives clash, synchronize and ultimately weave together the fabric of our society.
           This passion combined with my love for building fuels my practice as a developer. It is the reason
           why I excel as a team member as well as a project lead and it is what inspires me to use software
-          engineering to create a positive impact on the world.</p>
+          engineering to create a positive impact on the world.
+          <br />
+          <br />
+          <strong>Languages and Frameworks</strong>
+          <br/>
+          {"HTML, CSS, JavaScript, React, Node.js, Ruby, Ruby on Rails, Postgresql, Express, MongoDB, & Mongoose."}
+        </p>
       </div>
       <Footer/>
     </div>
