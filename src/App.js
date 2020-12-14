@@ -1,11 +1,11 @@
 import { Route } from 'react-router-dom';
 import './App.css';
 
-import Header from './components/Header';
-import About from './screens/About';
-import ContactMe from './screens/ContactMe';
-import Projects from './screens/Projects';
-import LandingPage from './screens/LandingPage';
+import Header from './components/Header/Header';
+import About from './screens/About/About';
+import ContactMe from './screens/ContactMe/ContactMe';
+import Projects from './screens/Projects/Projects';
+import LandingPage from './screens/LandingPage/LandingPage';
 
 function App() {
   return (

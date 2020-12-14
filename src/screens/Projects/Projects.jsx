@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import '../App.css';
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import '../../App.css';
+import './Projects.css';
 
 function Projects(props) {
   return (

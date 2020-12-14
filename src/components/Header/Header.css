@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 30px 80px;
+}
+
+#header-projects,
+#header-resume,
+#header-about,
+.link {
+  color: rgb(61, 61, 143);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}

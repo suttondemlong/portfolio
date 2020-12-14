@@ -1,0 +1,30 @@
+.my-photo {
+  margin-right: 50px;
+  width: 200px;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.about-page {
+  height: 100vh;
+}
+
+.about-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  width: 600px;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+}

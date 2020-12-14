@@ -1,0 +1,46 @@
+.footer-container {
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+  background: none;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  fill: rgb(65, 105, 225);
+}
+
+.icon:hover {
+  height: 45px;
+  width: 45px;
+}
+
+#linked-in-id {
+  margin-right: 5vw;
+}
+
+.link,
+.contact {
+  margin-right: 20px;
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: rgb(61, 61, 143);
+}
+
+@media screen and (max-width: 500px) {
+  .footer-container {
+    justify-content: space-around;
+  }
+  #linked-in-id {
+    margin-right: 0;
+  }
+}

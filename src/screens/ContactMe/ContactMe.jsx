@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import './ContactMe.css';
 
 export default class ContactMe extends React.Component {
   constructor(props) {
