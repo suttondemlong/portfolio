@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { resumeLink } from '../Links'
 import './Header.css';
 
 function Header(props) {
@@ -15,7 +16,7 @@ function Header(props) {
           to="/projects">PROJECTS</Link>
         <a
           className="header-option"
-          href="https://drive.google.com/file/d/164HD2MhgaOd8PqIUPmj0UELFq_A8-Q5a/view?usp=sharing"
+          href={resumeLink}
           id="header-resume">
           RESUME
         </a>

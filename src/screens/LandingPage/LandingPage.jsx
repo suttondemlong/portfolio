@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { resumeLink } from '../../components/Links'
 
 import Footer from '../../components/Footer/Footer'
 import './LandingPage.css'
@@ -16,7 +17,7 @@ function LandingPage(props) {
       </div>
       <Link id="projects" to="/projects">PROJECTS</Link>
       <a
-        href="https://drive.google.com/file/d/164HD2MhgaOd8PqIUPmj0UELFq_A8-Q5a/view?usp=sharing"
+        href={resumeLink}
         id="resume">
         RESUME
       </a>
