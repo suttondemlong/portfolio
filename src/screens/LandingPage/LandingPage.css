@@ -143,6 +143,8 @@
   #projects {
     right: 25px;
     top: 23%;
+    width: 200px;
+    height: 200px;
   }
   #resume,
   #about {
