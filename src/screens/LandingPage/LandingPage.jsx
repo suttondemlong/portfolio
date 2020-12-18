@@ -17,6 +17,7 @@ function LandingPage(props) {
       </div>
       <Link id="projects" to="/projects">PROJECTS</Link>
       <a
+        target='_blank'
         href={resumeLink}
         id="resume">
         RESUME

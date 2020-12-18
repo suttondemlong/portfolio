@@ -6,14 +6,21 @@ import './Footer.css';
 function Footer(props) {
   return (
     <div className='footer-container'>
-      <a className="link" href="http://sutton-demlong.squarespace.com/">ART</a>
+      <a
+        className="link"
+        target='_blank'
+        href="http://sutton-demlong.squarespace.com/">ART</a>
       <Link to='/contact' className="contact">CONTACT</Link>
-      <a href='https://github.com/suttondemlong'>
+      <a
+        target='_blank'
+        href='https://github.com/suttondemlong'>
         <img
           className="icon"
           src='https://raw.githubusercontent.com/suttondemlong/portfolio/37db0898f2884dce40db2875d3c2d2b726dc190c/src/assets/github.svg' alt='GitHub'></img>
       </a>
-      <a href='https://www.linkedin.com/in/sutton-demlong/'>
+      <a
+        target='_blank'
+        href='https://www.linkedin.com/in/sutton-demlong/'>
         <img
           className="icon"
           id="linked-in-id"
