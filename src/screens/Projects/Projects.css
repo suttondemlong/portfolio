@@ -82,4 +82,8 @@
     height: 60vw;
     line-height: 60vw;
   }
+  .tile-hover {
+    width: 60vw;
+    height: 60vw;
+  }
 }
