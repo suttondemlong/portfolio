@@ -16,6 +16,7 @@ function Header(props) {
           to="/projects">PROJECTS</Link>
         <a
           target='_blank'
+          rel="noreferrer"
           className="header-option"
           href={resumeLink}
           id="header-resume">

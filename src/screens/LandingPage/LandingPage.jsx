@@ -18,6 +18,7 @@ function LandingPage(props) {
       <Link id="projects" to="/projects">PROJECTS</Link>
       <a
         target='_blank'
+        rel="noreferrer"
         href={resumeLink}
         id="resume">
         RESUME
