@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
 import useModal from "../../services/useModal";
 import "./Project.css";
 
