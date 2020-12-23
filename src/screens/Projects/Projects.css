@@ -21,6 +21,10 @@
   background-image: url(https://github.com/suttondemlong/portfolio/blob/main/src/assets/ThoughtVomit2.png?raw=true);
 }
 
+#project-4 {
+  background-image: url(https://github.com/suttondemlong/portfolio/blob/main/src/assets/ThoughtVomit2.png?raw=true);
+}
+
 #project-1,
 #project-2,
 #project-3 {
@@ -42,30 +46,6 @@
 .project-icon {
   height: 25px;
   width: 25px;
-}
-
-.tile-hover {
-  width: 300px;
-  height: 300px;
-  opacity: 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.project-link {
-  color: rgb(249, 249, 252);
-  font-weight: 600;
-}
-
-.project-link:hover {
-  color: rgb(194, 194, 255);
-  font-weight: 800;
-}
-
-.tile-hover:hover {
-  opacity: 1;
-  background: rgba(79, 67, 67, 0.6);
 }
 
 @media screen and (max-width: 800px) {

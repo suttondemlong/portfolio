@@ -9,10 +9,12 @@ function Footer(props) {
       <a
         className="link"
         target='_blank'
+        rel="noreferrer"
         href="http://sutton-demlong.squarespace.com/">ART</a>
       <Link to='/contact' className="contact">CONTACT</Link>
       <a
         target='_blank'
+        rel="noreferrer"
         href='https://github.com/suttondemlong'>
         <img
           className="icon"
@@ -20,6 +22,7 @@ function Footer(props) {
       </a>
       <a
         target='_blank'
+        rel="noreferrer"
         href='https://www.linkedin.com/in/sutton-demlong/'>
         <img
           className="icon"
