@@ -43,8 +43,8 @@
   top: 0;
   left: 0;
   z-index: 1040;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #000;
   opacity: 0.5;
 }
@@ -74,6 +74,7 @@
 .modal-header {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .modal-close-button {
@@ -98,7 +99,7 @@
 }
 
 .modal-img {
-  width: 600px;
+  max-width: 600px;
 }
 
 .modal-text {
@@ -127,6 +128,8 @@
 .project-site-link {
   color: rgb(61, 61, 143);
   margin: 0 10px;
+  line-height: 100%;
+  text-align: center;
 }
 
 .project-site-link:hover {
@@ -145,5 +148,11 @@
     height: 60vw;
     opacity: 1;
     background: rgba(79, 67, 67, 0.6);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .modal-img {
+    width: 100%;
   }
 }
