@@ -1,3 +1,43 @@
+#project-1 {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ParksAlert.png);
+}
+
+#project-2 {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/PaintedGrits.png);
+}
+
+#project-3 {
+  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/GreenHouse.png);
+}
+
+#project-4 {
+  background-image: url(https://github.com/suttondemlong/portfolio/blob/main/src/assets/ThoughtVomit2.png?raw=true);
+}
+
+#project-1,
+#project-2,
+#project-3,
+#project-4 {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-tile {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  color: transparent;
+  margin: 20px;
+  box-shadow: 3px 3px 3px 3px #ccc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-icon {
+  height: 25px;
+  width: 25px;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -27,7 +67,7 @@
   position: relative;
   margin: 1.75rem auto;
   border-radius: 3px;
-  max-width: 500px;
+  max-width: 600px;
   padding: 2rem;
 }
 
@@ -46,9 +86,19 @@
   border: none;
 }
 
+.modal-icon {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
 #modal-project-title {
   text-align: center;
   font-family: "Paytone One", sans-serif;
+}
+
+.modal-img {
+  width: 600px;
 }
 
 .modal-text {
@@ -72,4 +122,28 @@
   opacity: 1;
   background: rgba(79, 67, 67, 0.6);
   cursor: pointer;
+}
+
+.project-site-link {
+  color: rgb(61, 61, 143);
+  margin: 0 10px;
+}
+
+.project-site-link:hover {
+  color: rgb(139, 139, 177);
+}
+
+@media screen and (max-width: 800px) {
+  .project-tile {
+    margin: 30px auto;
+    width: 60vw;
+    height: 60vw;
+    line-height: 60vw;
+  }
+  .show-modal-button {
+    width: 60vw;
+    height: 60vw;
+    opacity: 1;
+    background: rgba(79, 67, 67, 0.6);
+  }
 }

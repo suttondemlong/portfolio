@@ -1,69 +1,31 @@
-.project-page {
+.projects-page {
   height: 100vh;
   width: 100vw;
 }
 
 .projects-container {
+  height: 80vh;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-}
-
-#project-1 {
-  background: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/ParksAlert.png);
-}
-
-#project-2 {
-  background-image: url(https://raw.githubusercontent.com/suttondemlong/portfolio/main/src/assets/PaintedGrits.png);
-}
-
-#project-3 {
-  background-image: url(https://github.com/suttondemlong/portfolio/blob/main/src/assets/ThoughtVomit2.png?raw=true);
-}
-
-#project-4 {
-  background-image: url(https://github.com/suttondemlong/portfolio/blob/main/src/assets/ThoughtVomit2.png?raw=true);
-}
-
-#project-1,
-#project-2,
-#project-3 {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.project-tile {
-  width: 300px;
-  height: 300px;
-  line-height: 300px;
-  color: transparent;
-  margin: 20px;
-  box-shadow: 3px 3px 3px 3px #ccc;
-  font-family: "Montserrat", sans-serif;
-}
-
-.project-icon {
-  height: 25px;
-  width: 25px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 800px) {
   .projects-container {
-    flex-direction: column;
+    height: 100%;
     align-items: center;
   }
   .footer-container {
     position: relative;
   }
-  .project-tile {
-    margin: 30px auto;
-    width: 60vw;
-    height: 60vw;
-    line-height: 60vw;
-  }
-  .tile-hover {
-    width: 60vw;
-    height: 60vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-page {
+    width: 1200px;
+    margin: 0 auto;
   }
 }
