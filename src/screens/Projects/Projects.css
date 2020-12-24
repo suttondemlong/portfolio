@@ -1,10 +1,10 @@
 .projects-page {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
 .projects-container {
-  height: 80vh;
+  height: 100%;
   width: 80%;
   margin: 0 auto;
   display: flex;

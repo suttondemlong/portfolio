@@ -158,3 +158,9 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .triangle {
+    border-right: 1200px solid transparent;
+  }
+}
