@@ -14,8 +14,8 @@ function About(props) {
           src="https://github.com/suttondemlong/portfolio/blob/main/src/assets/IMG_8767.JPG?raw=true" alt="it-me"></img>
           <p className="about-text">I am a junior developer specializing in Ruby on Rails and React. 
           In a previous life, I studied fine arts and managed a woodworking/sculpor-for-hire studio.
-          I gained experience writing code while working with Arduinos to create interactive sculptures. 
-          Working with the Arduino IDE and being a part of that open source community sparked my passion 
+          I gained experience writing code while working with the Arduino IDE to create interactive sculptures. 
+          Working with Arduinos and being a part of that open source community sparked my passion 
           for learning programming languages and the open source ideology. 
           <br />
           <br />
