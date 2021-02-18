@@ -12,15 +12,17 @@ function About(props) {
         <img
           className="my-photo"
           src="https://github.com/suttondemlong/portfolio/blob/main/src/assets/IMG_8767.JPG?raw=true" alt="it-me"></img>
-          <p className="about-text">I am a junior developer with a background in fine arts and production based woodworking.
-        As a production manager at LANNINGSMITH Studios, I learned how to navigate teams of unique individuals,
-        balance client expectations with production realities and problem solve/pivot with a looming deadline.
+          <p className="about-text">I am a junior developer specializing in Ruby on Rails and React. 
+          In a previous life, I studied fine arts and managed a woodworking/sculpor-for-hire studio.
+          I gained experience writing code while working with Arduinos to create interactive sculptures. 
+          Working with the Arduino IDE and being a part of that open source community sparked my passion 
+          for learning programming languages and the open source ideology. 
           <br />
           <br />
-          Through my art practice, I have developed a thirst for understanding how the infinite iterations of
+          As an artist, I developed a thirst for understanding how the infinite iterations of
           people’s perspectives clash, synchronize and ultimately weave together the fabric of our society.
-          This passion combined with my love for building fuels my practice as a developer. It is the reason
-          why I excel as a team member as well as a project lead and it is what inspires me to use software
+          This love of community combined with my passion for building fuels my practice as a developer. 
+          It is the reason why I am an excellent team member and it is what inspires me to use software 
           engineering to create a positive impact on the world.
           <br />
           <br />
